@@ -1,0 +1,19 @@
+#With {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+    }
+    background-color:silver;
+    color: red;
+}
+#Tip{
+    *{
+    font-style: normal;      
+    }
+    background-color: yellow;
+}
+#Tip::first-letter{
+    color: rgb(123, 232, 14);
+}
