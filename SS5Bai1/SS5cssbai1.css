@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    align-content: center;
+}
+.container > #form{
+    padding: 100px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px 30px;
+}
+.form__title{
+    text-align: center;
+    margin: 10px 0px;
+}
+.form__item{
+    padding: 5px;    
+}
+.form__item > input:focus{
+    width: 100%;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.form__item > button{
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid black;
+}
+
